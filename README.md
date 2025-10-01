@@ -60,26 +60,26 @@ jupyter notebook
 ```bash
 http://127.0.0.1:8050/
 ```
-# 📦 Dependencies
+## 📦 Dependencies
 
 - Install the required libraries inside your Jupyter Notebook:
 
-# Core libraries
+### Core libraries
 ```bash
 %pip install pandas plotly scikit-learn statsmodels matplotlib
 ```
 
-# Needed for Jupyter Notebook rendering
+### Needed for Jupyter Notebook rendering
 ```bash
 %pip install nbformat
 ```
 
-# Dash for interactive dashboard
+### Dash for interactive dashboard
 ```bash
 %pip install dash
 ```
 
-# 📌 Notes
+## 📌 Notes
 
 - Ensure you have Python 3.8+ installed.
 
