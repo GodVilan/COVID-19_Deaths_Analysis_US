@@ -42,39 +42,47 @@ The dataset contains:
 
 ## ⚙️ How to Run
 
+
 1. Clone the repository:
 ```bash
 git clone https://github.com/your-username/covid19-dashboard.git
 cd covid19-dashboard
+```
 
 2. Open Jupyter Notebook:
-
+```bash
 jupyter notebook
-
+```
 
 3. Open the notebook file (e.g., COVID19_Dashboard.ipynb) and run the cells in order.
 
 4. If the dashboard app cell is included, it will run locally at:
-
+```bash
 http://127.0.0.1:8050/
+```
+# 📦 Dependencies
 
-📦 Dependencies
-
-Install the required libraries inside your Jupyter Notebook:
+- Install the required libraries inside your Jupyter Notebook:
 
 # Core libraries
+```bash
 %pip install pandas plotly scikit-learn statsmodels matplotlib
+```
 
 # Needed for Jupyter Notebook rendering
-%pip install nbformat  
+```bash
+%pip install nbformat
+```
 
 # Dash for interactive dashboard
+```bash
 %pip install dash
+```
 
-📌 Notes
+# 📌 Notes
 
-Ensure you have Python 3.8+ installed.
+- Ensure you have Python 3.8+ installed.
 
-Make sure the dataset file is in the same directory as the notebook.
+- Make sure the dataset file is in the same directory as the notebook.
 
-The dashboard will only run if the cell containing Dash app code is executed.
+- The dashboard will only run if the cell containing Dash app code is executed.
